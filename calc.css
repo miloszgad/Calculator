@@ -1,0 +1,122 @@
+body {
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 3%;
+}
+
+.table {
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: auto;
+    height: 50px;
+    margin: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10%;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+#AC {
+    grid-column: span 2;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+#AC:hover {
+    background-color: wheat;
+    color: black;
+    border: 2px solid black;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+#equals {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#equals:hover {
+    background-color: wheat;
+    color: black;
+    border: 2px solid black;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.element:hover {
+    background-color: wheat;
+}
+
+.operator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.operator:hover {
+    background-color: wheat;
+}
+
+#backspace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+#backspace:hover {
+    background-color: wheat;
+}
